@@ -17,6 +17,15 @@ conda activate unemployment-env
 '''sh
 pip install -r requirement.txt
 '''
+## Configuration
+
+Obtain API Key from Alphavantage
+
+Create local .env and provide key"
+
+'''
+ALPHAVANTAGE_API_KEY="____"
+'''
 
 
 ## USAGE
