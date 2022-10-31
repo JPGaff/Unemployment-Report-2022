@@ -28,5 +28,5 @@ python app/my_script.py
 
 run unemployment
 '''
-python app/unemployment.py
+ALPHAVANTAGE_API_KEY="abc123" python app/unemployment.py
 '''

@@ -1,8 +1,10 @@
-import requests
+import os
 import json
 from pprint import pprint
 
-API_KEY = "demo"
+import requests
+
+API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
 request_url = f"https://www.alphavantage.co/query?function=UNEMPLOYMENT&apikey={API_KEY}"
 
