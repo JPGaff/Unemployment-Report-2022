@@ -3,8 +3,11 @@ import json
 from pprint import pprint
 from statistics import mean
 from plotly.express import line
+from dotenv import load_dotenv
 
 import requests
+
+load_dotenv()
 
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
