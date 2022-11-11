@@ -18,6 +18,9 @@ Install package dependencies:
 pip install -r requirements.txt
 ```
 
+
+
+
 ## Configuration
 
 
@@ -50,4 +53,13 @@ Run stocks report:
 
 ```sh
 python -m app.stocks
+```
+
+
+## Testing
+
+Run tests:
+
+```sh
+pytest
 ```
