@@ -1,47 +1,53 @@
-# Unemployment-Report-2022
+# unemployment-inclass-2022
+
 
 ## Setup
-May need to do if python not found
 
-conda activate base
 
-Create & activate a virtual enviornment
+Create and activate a virtual environment:
 
-'''sh
+```sh
 conda create -n unemployment-env python=3.8
 
 conda activate unemployment-env
+```
 
-'''
+Install package dependencies:
 
-'''sh
-pip install -r requirement.txt
-'''
+```sh
+pip install -r requirements.txt
+```
+
 ## Configuration
 
-Obtain API Key from Alphavantage
 
-Create local .env and provide key"
+[Obtain an API Key](https://www.alphavantage.co/support/#api-key) from AlphaVantage.
 
-'''
-ALPHAVANTAGE_API_KEY="____"
-'''
+Then create a local ".env" file and provide the key like this:
+
+```sh
+# this is the ".env" file...
+
+ALPHAVANTAGE_API_KEY="_________"
+```
 
 
-## USAGE
+## Usage
 
-run example
-'''sh
+Run an example script:
+
+```sh
 python app/my_script.py
-'''
+```
 
-run unemployment
-'''
-python app/unemployment.py
-'''
+Run the unemployment report:
+
+```sh
+python -m app.unemployment
+```
 
 Run stocks report:
 
 ```sh
-python app/stocks.py
+python -m app.stocks
 ```
