@@ -1,3 +1,6 @@
+
+# this is the "requirements.txt" file...
+
 python-dotenv
 
 pandas
@@ -6,8 +9,11 @@ requests
 
 plotly
 
-pytest
-
 sendgrid==6.6.0
 
 flask
+gunicorn # <--- UNCOMMENT FOR HEROKU DEPLOY
+
+
+# using this to find and run our tests:
+pytest
